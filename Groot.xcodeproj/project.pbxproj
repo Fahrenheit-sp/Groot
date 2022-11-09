@@ -7,15 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82BCF4DD1D9123BF00BC4E0F /* Data+Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BCF4DC1D9123BF00BC4E0F /* Data+Resource.swift */; };
-		82BCF4DF1D913EF700BC4E0F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BCF4DE1D913EF700BC4E0F /* Models.swift */; };
-		82BCF4E71D9145DE00BC4E0F /* SerializationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BCF4E61D9145DE00BC4E0F /* SerializationTests.swift */; };
-		82BCF4E81D9145DE00BC4E0F /* SerializationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BCF4E61D9145DE00BC4E0F /* SerializationTests.swift */; };
-		82BCF4E91D9145EE00BC4E0F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BCF4DE1D913EF700BC4E0F /* Models.swift */; };
-		82BCF4EA1D9145F100BC4E0F /* Data+Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BCF4DC1D9123BF00BC4E0F /* Data+Resource.swift */; };
-		82BCF4F01D91475200BC4E0F /* ManagedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BCF4EF1D91475200BC4E0F /* ManagedStoreTests.swift */; };
-		82BCF4F11D91475200BC4E0F /* ManagedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BCF4EF1D91475200BC4E0F /* ManagedStoreTests.swift */; };
-		B408736D1B5AB6930063F150 /* Groot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40873621B5AB6930063F150 /* Groot.framework */; };
 		B408737B1B5AB8350063F150 /* Groot.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DC1AF11AA9CA5E00F67403 /* Groot.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B408737C1B5AB83D0063F150 /* Groot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD30701B569F1A002392F7 /* Groot.swift */; };
 		B408737D1B5AB8470063F150 /* GRTError.h in Headers */ = {isa = PBXBuildFile; fileRef = B46200C01B4F07E4003B3B69 /* GRTError.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,14 +28,6 @@
 		B408738D1B5AB87F0063F150 /* NSEntityDescription+Groot.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DC1B161AA9CAC200F67403 /* NSEntityDescription+Groot.m */; };
 		B408738E1B5AB87F0063F150 /* NSManagedObject+Groot.h in Headers */ = {isa = PBXBuildFile; fileRef = B475B40E1B53FCE1001F29FE /* NSManagedObject+Groot.h */; };
 		B408738F1B5AB87F0063F150 /* NSManagedObject+Groot.m in Sources */ = {isa = PBXBuildFile; fileRef = B475B40F1B53FCE1001F29FE /* NSManagedObject+Groot.m */; };
-		B40873901B5AB89C0063F150 /* ValueTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E72F6E1B4DC7DA00B9EA77 /* ValueTransformerTests.swift */; };
-		B40873931B5AB8AF0063F150 /* characters.json in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D911B56600000309637 /* characters.json */; };
-		B40873941B5AB8AF0063F150 /* characters_update.json in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D921B56600000309637 /* characters_update.json */; };
-		B40873951B5AB8AF0063F150 /* container.json in Resources */ = {isa = PBXBuildFile; fileRef = B409C72F1B5979E700C47D48 /* container.json */; };
-		B408739C1B5AB8E80063F150 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4DC1B2D1AA9CBAD00F67403 /* Model.xcdatamodeld */; };
-		B409C7301B5979E700C47D48 /* container.json in Resources */ = {isa = PBXBuildFile; fileRef = B409C72F1B5979E700C47D48 /* container.json */; };
-		B42A1D931B56600000309637 /* characters.json in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D911B56600000309637 /* characters.json */; };
-		B42A1D941B56600000309637 /* characters_update.json in Resources */ = {isa = PBXBuildFile; fileRef = B42A1D921B56600000309637 /* characters_update.json */; };
 		B44B7F5A1B7240FD00490641 /* NSArray+DictionaryTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = B44B7F581B7240FD00490641 /* NSArray+DictionaryTransformer.h */; };
 		B44B7F5B1B7240FD00490641 /* NSArray+DictionaryTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = B44B7F591B7240FD00490641 /* NSArray+DictionaryTransformer.m */; };
 		B44B7F5C1B72441D00490641 /* NSArray+DictionaryTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = B44B7F581B7240FD00490641 /* NSArray+DictionaryTransformer.h */; };
@@ -64,7 +47,6 @@
 		B4944D1D1B83355C00EA2D29 /* GRTSerializationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4944D1C1B83355C00EA2D29 /* GRTSerializationStrategy.m */; };
 		B4944D1E1B83355C00EA2D29 /* GRTSerializationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4944D1C1B83355C00EA2D29 /* GRTSerializationStrategy.m */; };
 		B4DC1AF21AA9CA5E00F67403 /* Groot.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DC1AF11AA9CA5E00F67403 /* Groot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4DC1AF81AA9CA5E00F67403 /* Groot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DC1AEC1AA9CA5E00F67403 /* Groot.framework */; };
 		B4DC1B1B1AA9CAC200F67403 /* GRTJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DC1B0A1AA9CAC200F67403 /* GRTJSONSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4DC1B1C1AA9CAC200F67403 /* GRTJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DC1B0B1AA9CAC200F67403 /* GRTJSONSerialization.m */; };
 		B4DC1B1D1AA9CAC200F67403 /* GRTManagedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DC1B0C1AA9CAC200F67403 /* GRTManagedStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -75,7 +57,6 @@
 		B4DC1B261AA9CAC200F67403 /* NSEntityDescription+Groot.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DC1B161AA9CAC200F67403 /* NSEntityDescription+Groot.m */; };
 		B4DC1B271AA9CAC200F67403 /* NSPropertyDescription+Groot.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DC1B171AA9CAC200F67403 /* NSPropertyDescription+Groot.h */; };
 		B4DC1B281AA9CAC200F67403 /* NSPropertyDescription+Groot.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DC1B181AA9CAC200F67403 /* NSPropertyDescription+Groot.m */; };
-		B4DC1B321AA9CBAD00F67403 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4DC1B2D1AA9CBAD00F67403 /* Model.xcdatamodeld */; };
 		B4E314F91B832BD500A80489 /* GRTManagedObjectSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E314F71B832BD500A80489 /* GRTManagedObjectSerializer.h */; };
 		B4E314FA1B832BD500A80489 /* GRTManagedObjectSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E314F71B832BD500A80489 /* GRTManagedObjectSerializer.h */; };
 		B4E314FB1B832BD500A80489 /* GRTManagedObjectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E314F81B832BD500A80489 /* GRTManagedObjectSerializer.m */; };
@@ -87,34 +68,12 @@
 		B4E72F641B4DB9B300B9EA77 /* NSValueTransformer+Groot.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E72F621B4DB9B300B9EA77 /* NSValueTransformer+Groot.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4E72F651B4DB9B300B9EA77 /* NSValueTransformer+Groot.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E72F631B4DB9B300B9EA77 /* NSValueTransformer+Groot.m */; };
 		B4E72F6D1B4DC4D500B9EA77 /* ValueTransformer+Groot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E72F6C1B4DC4D500B9EA77 /* ValueTransformer+Groot.swift */; };
-		B4E72F6F1B4DC7DA00B9EA77 /* ValueTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E72F6E1B4DC7DA00B9EA77 /* ValueTransformerTests.swift */; };
 		B4EB88B61B847D3800867F3F /* GRTCompositeUniquingSerializationStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = B4EB88B41B847D3800867F3F /* GRTCompositeUniquingSerializationStrategy.h */; };
 		B4EB88B71B847D3800867F3F /* GRTCompositeUniquingSerializationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB88B51B847D3800867F3F /* GRTCompositeUniquingSerializationStrategy.m */; };
 		B4EB88B81B847E1900867F3F /* GRTCompositeUniquingSerializationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EB88B51B847D3800867F3F /* GRTCompositeUniquingSerializationStrategy.m */; };
 		B4EB88B91B847E2100867F3F /* GRTCompositeUniquingSerializationStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = B4EB88B41B847D3800867F3F /* GRTCompositeUniquingSerializationStrategy.h */; };
-		B4EB88BF1B84D77200867F3F /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = B4EB88BE1B84D77200867F3F /* cards.json */; };
-		B4EB88C11B84D83300867F3F /* cards_update.json in Resources */ = {isa = PBXBuildFile; fileRef = B4EB88C01B84D83300867F3F /* cards_update.json */; };
-		B4EB88C21B84D97F00867F3F /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = B4EB88BE1B84D77200867F3F /* cards.json */; };
-		B4EB88C31B84D98500867F3F /* cards_update.json in Resources */ = {isa = PBXBuildFile; fileRef = B4EB88C01B84D83300867F3F /* cards_update.json */; };
 		B4FD30711B569F1A002392F7 /* Groot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD30701B569F1A002392F7 /* Groot.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B408736E1B5AB6930063F150 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B4DC1AE31AA9CA5E00F67403 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B40873611B5AB6930063F150;
-			remoteInfo = "Groot-Mac";
-		};
-		B4DC1AF91AA9CA5E00F67403 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B4DC1AE31AA9CA5E00F67403 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B4DC1AEB1AA9CA5E00F67403;
-			remoteInfo = Groot;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		82BCF4DC1D9123BF00BC4E0F /* Data+Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Resource.swift"; sourceTree = "<group>"; };
@@ -122,7 +81,6 @@
 		82BCF4E61D9145DE00BC4E0F /* SerializationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializationTests.swift; sourceTree = "<group>"; };
 		82BCF4EF1D91475200BC4E0F /* ManagedStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedStoreTests.swift; sourceTree = "<group>"; };
 		B40873621B5AB6930063F150 /* Groot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Groot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B408736C1B5AB6930063F150 /* GrootTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrootTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B409C72F1B5979E700C47D48 /* container.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = container.json; sourceTree = "<group>"; };
 		B42A1D911B56600000309637 /* characters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = characters.json; sourceTree = "<group>"; };
 		B42A1D921B56600000309637 /* characters_update.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = characters_update.json; sourceTree = "<group>"; };
@@ -140,7 +98,6 @@
 		B4DC1AEC1AA9CA5E00F67403 /* Groot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Groot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DC1AF01AA9CA5E00F67403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4DC1AF11AA9CA5E00F67403 /* Groot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Groot.h; sourceTree = "<group>"; };
-		B4DC1AF71AA9CA5E00F67403 /* GrootTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrootTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DC1AFD1AA9CA5E00F67403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4DC1B0A1AA9CAC200F67403 /* GRTJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRTJSONSerialization.h; sourceTree = "<group>"; };
 		B4DC1B0B1AA9CAC200F67403 /* GRTJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRTJSONSerialization.m; sourceTree = "<group>"; };
@@ -177,26 +134,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B40873691B5AB6930063F150 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B408736D1B5AB6930063F150 /* Groot.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B4DC1AE81AA9CA5E00F67403 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4DC1AF41AA9CA5E00F67403 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4DC1AF81AA9CA5E00F67403 /* Groot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,9 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				B4DC1AEC1AA9CA5E00F67403 /* Groot.framework */,
-				B4DC1AF71AA9CA5E00F67403 /* GrootTests.xctest */,
 				B40873621B5AB6930063F150 /* Groot.framework */,
-				B408736C1B5AB6930063F150 /* GrootTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -401,24 +340,6 @@
 			productReference = B40873621B5AB6930063F150 /* Groot.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B408736B1B5AB6930063F150 /* Groot-MacTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B408737A1B5AB6930063F150 /* Build configuration list for PBXNativeTarget "Groot-MacTests" */;
-			buildPhases = (
-				B40873681B5AB6930063F150 /* Sources */,
-				B40873691B5AB6930063F150 /* Frameworks */,
-				B408736A1B5AB6930063F150 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B408736F1B5AB6930063F150 /* PBXTargetDependency */,
-			);
-			name = "Groot-MacTests";
-			productName = "Groot-MacTests";
-			productReference = B408736C1B5AB6930063F150 /* GrootTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		B4DC1AEB1AA9CA5E00F67403 /* Groot */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4DC1B021AA9CA5E00F67403 /* Build configuration list for PBXNativeTarget "Groot" */;
@@ -437,24 +358,6 @@
 			productReference = B4DC1AEC1AA9CA5E00F67403 /* Groot.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B4DC1AF61AA9CA5E00F67403 /* GrootTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B4DC1B051AA9CA5E00F67403 /* Build configuration list for PBXNativeTarget "GrootTests" */;
-			buildPhases = (
-				B4DC1AF31AA9CA5E00F67403 /* Sources */,
-				B4DC1AF41AA9CA5E00F67403 /* Frameworks */,
-				B4DC1AF51AA9CA5E00F67403 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B4DC1AFA1AA9CA5E00F67403 /* PBXTargetDependency */,
-			);
-			name = GrootTests;
-			productName = GrootTests;
-			productReference = B4DC1AF71AA9CA5E00F67403 /* GrootTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -463,33 +366,26 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = "Guillermo Gonzalez";
 				TargetAttributes = {
 					B40873611B5AB6930063F150 = {
 						CreatedOnToolsVersion = 6.4;
 						LastSwiftMigration = 1000;
 					};
-					B408736B1B5AB6930063F150 = {
-						CreatedOnToolsVersion = 6.4;
-						LastSwiftMigration = 1000;
-					};
 					B4DC1AEB1AA9CA5E00F67403 = {
 						CreatedOnToolsVersion = 6.1.1;
-						LastSwiftMigration = 0900;
-					};
-					B4DC1AF61AA9CA5E00F67403 = {
-						CreatedOnToolsVersion = 6.1.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = "";
 					};
 				};
 			};
 			buildConfigurationList = B4DC1AE61AA9CA5E00F67403 /* Build configuration list for PBXProject "Groot" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B4DC1AE21AA9CA5E00F67403;
 			productRefGroup = B4DC1AED1AA9CA5E00F67403 /* Products */;
@@ -497,9 +393,7 @@
 			projectRoot = "";
 			targets = (
 				B4DC1AEB1AA9CA5E00F67403 /* Groot */,
-				B4DC1AF61AA9CA5E00F67403 /* GrootTests */,
 				B40873611B5AB6930063F150 /* Groot-Mac */,
-				B408736B1B5AB6930063F150 /* Groot-MacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -512,34 +406,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B408736A1B5AB6930063F150 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B40873941B5AB8AF0063F150 /* characters_update.json in Resources */,
-				B40873951B5AB8AF0063F150 /* container.json in Resources */,
-				B40873931B5AB8AF0063F150 /* characters.json in Resources */,
-				B4EB88C31B84D98500867F3F /* cards_update.json in Resources */,
-				B4EB88C21B84D97F00867F3F /* cards.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B4DC1AEA1AA9CA5E00F67403 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4DC1AF51AA9CA5E00F67403 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B42A1D941B56600000309637 /* characters_update.json in Resources */,
-				B42A1D931B56600000309637 /* characters.json in Resources */,
-				B409C7301B5979E700C47D48 /* container.json in Resources */,
-				B4EB88C11B84D83300867F3F /* cards_update.json in Resources */,
-				B4EB88BF1B84D77200867F3F /* cards.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,19 +440,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B40873681B5AB6930063F150 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B40873901B5AB89C0063F150 /* ValueTransformerTests.swift in Sources */,
-				82BCF4E81D9145DE00BC4E0F /* SerializationTests.swift in Sources */,
-				82BCF4E91D9145EE00BC4E0F /* Models.swift in Sources */,
-				82BCF4EA1D9145F100BC4E0F /* Data+Resource.swift in Sources */,
-				B408739C1B5AB8E80063F150 /* Model.xcdatamodeld in Sources */,
-				82BCF4F11D91475200BC4E0F /* ManagedStoreTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B4DC1AE71AA9CA5E00F67403 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -607,39 +464,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4DC1AF31AA9CA5E00F67403 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4E72F6F1B4DC7DA00B9EA77 /* ValueTransformerTests.swift in Sources */,
-				82BCF4E71D9145DE00BC4E0F /* SerializationTests.swift in Sources */,
-				82BCF4DF1D913EF700BC4E0F /* Models.swift in Sources */,
-				82BCF4DD1D9123BF00BC4E0F /* Data+Resource.swift in Sources */,
-				B4DC1B321AA9CBAD00F67403 /* Model.xcdatamodeld in Sources */,
-				82BCF4F01D91475200BC4E0F /* ManagedStoreTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B408736F1B5AB6930063F150 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B40873611B5AB6930063F150 /* Groot-Mac */;
-			targetProxy = B408736E1B5AB6930063F150 /* PBXContainerItemProxy */;
-		};
-		B4DC1AFA1AA9CA5E00F67403 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B4DC1AEB1AA9CA5E00F67403 /* Groot */;
-			targetProxy = B4DC1AF91AA9CA5E00F67403 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B40873751B5AB6930063F150 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -654,7 +486,7 @@
 				INFOPLIST_FILE = Groot/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gonzalezreal.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Groot;
 				SDKROOT = macosx;
@@ -667,6 +499,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -677,54 +510,11 @@
 				INFOPLIST_FILE = Groot/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gonzalezreal.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Groot;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		B40873771B5AB6930063F150 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GrootTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gonzalezreal.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = GrootTests;
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		B40873781B5AB6930063F150 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = GrootTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gonzalezreal.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = GrootTests;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -750,6 +540,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -775,7 +566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -808,6 +599,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -826,7 +618,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -849,11 +641,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Groot/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gonzalezreal.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -869,38 +663,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Groot/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gonzalezreal.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		B4DC1B061AA9CA5E00F67403 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GrootTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gonzalezreal.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		B4DC1B071AA9CA5E00F67403 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = GrootTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gonzalezreal.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -912,15 +681,6 @@
 			buildConfigurations = (
 				B40873751B5AB6930063F150 /* Debug */,
 				B40873761B5AB6930063F150 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B408737A1B5AB6930063F150 /* Build configuration list for PBXNativeTarget "Groot-MacTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B40873771B5AB6930063F150 /* Debug */,
-				B40873781B5AB6930063F150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -939,15 +699,6 @@
 			buildConfigurations = (
 				B4DC1B031AA9CA5E00F67403 /* Debug */,
 				B4DC1B041AA9CA5E00F67403 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B4DC1B051AA9CA5E00F67403 /* Build configuration list for PBXNativeTarget "GrootTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B4DC1B061AA9CA5E00F67403 /* Debug */,
-				B4DC1B071AA9CA5E00F67403 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
